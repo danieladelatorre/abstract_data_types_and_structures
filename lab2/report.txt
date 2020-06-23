@@ -1,0 +1,14 @@
+						Sorted				              Unsorted	
+
+File				    unique		    parity		    unique		    parity
+
+Bible.txt			.4647 seconds		5.9863 seconds		5.3537 seconds		45.6877 seconds
+Genesis.txt			.0253 seconds		.0903 seconds		.113 seconds		.4163 seconds
+GreenEggsAndHam.txt		.0077 seconds		.0073 seconds		.007 seconds		.008 seconds
+HoundOfTheBaskervilles.txt	.0587 seconds		.3137 seconds		.3387 seconds		1.6090 seconds
+Macbeth.txt			.0263 seconds		.0787 seconds		.116 seconds		.3520 seconds
+TheCountOfMonteCristo.txt	.4703 seconds		6.1547 seconds		4.9607 seconds		37.6440 seconds
+TheSecretGarden.txt		.0600 seconds		.3803 seconds		.3737 seconds		1.8027 seconds
+TheWarOfTheWorlds.txt		.0813 seconds		.3697 seconds		.4827 seconds		1.9023 seconds
+TreasureIsland.txt		.0683 seconds		.381 seconds		.4297 seconds		1.954 seconds
+TwentyThousandLeagues.txt	.1253 seconds		.7723 seconds		.9233 seconds		4.908 seconds

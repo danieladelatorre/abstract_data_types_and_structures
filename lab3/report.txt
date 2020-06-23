@@ -1,0 +1,14 @@
+						   Strings (Part1)				                 Generic (Part2)
+
+File			                   unique		    parity		    unique                  parity		   counts
+
+Bible.txt				.1347 seconds		.2487 seconds		.1153 seconds		.2447 seconds		.1887 seconds
+Genesis.txt				.0140 seconds		.0180 seconds		.0117 seconds		.0160 seconds		.0283 seconds
+GreenEggsAndHam.txt			.0093 seconds		.0077 seconds		.0093 seconds		.0073 seconds		.0127 seconds
+HoundOfTheBaskervilles.txt		.0210 seconds		.0230 seconds		.0160 seconds		.0230 seconds		.0450 seconds
+Macbeth.txt				.0140 seconds		.0117 seconds		.0100 seconds		.0117 seconds		.0303 seconds
+TheCountOfMonteCristo.txt		.0907 seconds		.1803 seconds		.0843 seconds		.1790 seconds		.1690 seconds
+TheSecretGarden.txt			.0227 seconds		.0303 seconds		.0190 seconds		.0277 seconds		.0480 seconds
+TheWarOfTheWorlds.txt			.0217 seconds		.0240 seconds		.0187 seconds		.0237 seconds		.0533 seconds
+TreasureIsland.txt			.0253 seconds		.0273 seconds		.0177 seconds		.0270 seconds		.0477 seconds
+TwentyThousandLeagues.txt		.0250 seconds		.0367 seconds		.0247 seconds		.0370 seconds		.0680 seconds

@@ -1,0 +1,26 @@
+	Daniela De La Torre
+	Application 3 Project Report	
+
+Functions:					Big O runtime		
+
+LIST *createList(int maxElts):			O(1)
+
+void destroyDataSet(LIST *lp)			O(n)
+
+void insertion(LIST *lp, int age, int id)	O(1)
+
+void searchAge(LIST *lp, int age)		O(n)
+
+void *searchId(LIST *lp, int id)		O(n)
+
+void deletion(LIST *lp, int id)			worst case Big O is O(1) not including the searchId function and O(n) including the function
+
+void min_max_Age(LIST *lp)			worst case Big O is O(n)
+
+void maxAgeGap(LIST *lp)			worst case Big O is O(1) not including the min_max_Age function and O(n) including the min_max_Age function
+
+
+
+Explanation:
+
+I chose to implement a circular doubly linked list because the insertion run time would be fast and with the search function it would also decrease the Big O run time to delete and element. I was also able to minimize the maxAgeGap function by having a search function and variables that held the values so I could make the run time O(1). I didnt choose an array because it would basically do the same thing and it would be more work and to make it better it would have to be sorted to improve the big O for the age gap but that would increase the insertion run time and deletion and those are used frequently, whereas with the linked list I could minimize all of the most frequently used functions.

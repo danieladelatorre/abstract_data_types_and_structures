@@ -1,0 +1,34 @@
+Daniela De La Torre
+Application 1 Report
+
+Functions:					Big O run time
+
+int main()					worst case Big O is O(n)
+
+LIST *createList()				worst case Big O is O(1)
+
+SET *createDataSet(int maxElts)			worst case Big O is O(n)
+
+void destroyList(LIST *lp)			worst case Big O is O(n)
+
+void destroyDataSet(SET *sp)			worst case Big O is O(n) including the destroyList function
+
+void findAge(SET *sp, int age)			worst case Big O is O(n) including the searchAge function and O(1) not including it
+
+void searchAge(LIST *lp)			worst case Big O is O(n)
+
+void addFirst(LIST *lp, int id, int age)	worst case Big O is O(1)
+
+void insertion(SET *sp, int id, int age)	worst case Big O is O(1) including the addFirst function
+
+void deletion(SET *sp, int age)			worst case Big O is O(n) including the removeRow function
+
+int removeRow(LIST *lp)				worst case Big O is O(n)
+
+void maxAgeGap(SET *sp)				worst case Big O is O(n)
+
+
+Explanation:
+
+I implemented an array of pointers because it would be easy to insert and delete students and the run time for the findAge function is also reduced and that is one of the main functions of the application. Each of the run times for the major functions are O(1). Also each of the categories in the array are based on age so it is easy to locate the students. All of the other functions have a run time of about O(n). 
+
